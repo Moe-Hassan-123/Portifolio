@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    'nav'
+    'main';
+    grid-template-rows: 60px;
+    background-color: white;
+}
+
+main{
+    display: flex;
+    flex-flow: column;
+    background-color:white;
+    padding: 40px;
+    grid-area: main;
+    margin: 6px;
+}
+label {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+/*.btn{
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    margin: auto;
+}*/
+#game-form {
+    font-size: 25px;
+    display: flex;
+    justify-content:center;
+    flex-flow: column;
+}
+#game-form > div {
+    margin: 10px;
+}
+.form-control {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    text-transform: uppercase
+}
+#game-output {
+
+    text-align: center;
+}
+#button_container {
+    display: flex;
+    justify-content: center;
+}
+#button_container > button {
+    margin-right: 20px;
+    margin-left: 20px;
+}
